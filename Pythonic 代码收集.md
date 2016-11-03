@@ -78,3 +78,20 @@ for i in range(len(li)):
 li = list(map(lambda x: x+3, li])
 map 返回一个惰性序列，用list显式化
 
+11) reduce
+def reduce(function, sequence, initial=None)
+function 必须接受两个参数。
+第一个参数是累计值，等于上次的结果，第二个参数是序列的值。initial可以赋给累加值。
+也就是一个参数固定，第二个参数是序列元素值，函数会作用在这个固定的参数上，最后返回这个
+函数。
+
+注意是给第一个参数累计求值，而不是累加。
+
+acc = 2
+for in in(1, 2, 3)
+	acc = acc ** 2   #每一次将 acc
+
+可写作：
+reduce(lambda x, y: x**2, [1, 2. 3], 2)
+reduce(lambda x, y: x**y, [1, 2, 3], 10)
+
