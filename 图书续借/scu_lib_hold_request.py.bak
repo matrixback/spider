@@ -35,8 +35,8 @@ def hold_books():
 
     # get ready to login
     data = {
-        "Login.Token1": "xxxxxxx",
-        "Login.Token2": "xxxxxxx",
+        "Login.Token1": "2014223070030",
+        "Login.Token2": "reform2014",
         "goto": "http://my.scu.edu.cn/loginSuccess.portal",
         "gotoOnFail": "http://my.scu.edu.cn/loginFailure.portal"
     }
