@@ -36,8 +36,8 @@ def sign_in():
                          'referer':"http://matrix.ac.cn"
                      }
     pay_load = {
-                'username':'matrix',
-                'password': 'reform2014',
+                'username':'xxxxxx',
+                'password': 'xxxxxxx',
                 'csrfmiddlewaretoken':token,
             }
 
